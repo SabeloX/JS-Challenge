@@ -1,0 +1,32 @@
+#grid-one{
+  display: grid;
+  grid-row-gap: 10px;
+}
+
+#grid-one h3{
+  border: 2px solid black;
+  padding: 30px;
+}
+#blue{
+  color: blue;
+}
+#green{
+  color: green;
+}
+#red{
+  color: red;
+}
+
+#grid-two{
+  border: 2px solid black;
+  padding-top: 100px;
+}
+.container{
+  margin: 200px auto;
+  width: 60%;
+  height: 350px;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: auto auto auto;
+  background-color: white;
+}
